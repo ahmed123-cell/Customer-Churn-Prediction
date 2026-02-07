@@ -44,14 +44,6 @@ uvicorn main:app --reload
 
 → Open: http://127.0.0.1:8000/docs
 
-### Live API (Render)
-
-**Base URL**:  
-https://your-app-name.onrender.com
-
-**Docs**:  
-https://your-app-name.onrender.com/docs
-
 **Endpoint**:  
 POST `/predict`
 
