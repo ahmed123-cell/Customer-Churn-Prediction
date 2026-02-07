@@ -51,25 +51,3 @@ def prediction(features: CustomerChurnFeatures):
 
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=8000)
-
-
-{
-  "gender": "Female",
-  "SeniorCitizen": 0,
-  "Partner": "Yes",
-  "Dependents": "Yes",
-  "tenure": 0,
-  "PhoneService": "No",
-  "MultipleLines": "No",
-  "InternetService": "DSL",
-  "OnlineSecurity": "Yes",
-  "OnlineBackup": "No",
-  "DeviceProtection": "Yes",
-  "TechSupport": "Yes",
-  "StreamingTV": "Yes",
-  "StreamingMovies": "No",
-  "Contract": "Two year",
-  "PaperlessBilling": "Yes",
-  "PaymentMethod": "Bank transfer (automatic)",
-  "MonthlyCharges": 52.55
-}
