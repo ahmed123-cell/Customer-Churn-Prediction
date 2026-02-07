@@ -14,13 +14,13 @@ A FastAPI service that predicts whether a telecom customer will churn using XGBo
 
 ```
 telco-churn-api/
-├── app.py                 # FastAPI app
-├── FeatureEngineering.py  # Custom feature transformer
+├── app.py                                   # FastAPI app
+├── FeatureEngineering.py                    # Custom feature transformer
 ├── requirements.txt
-├── xgboost.pkl   # Saved model + pipeline
-├── Customer Churn.ipynb             # Development notebook
+├── xgboost.pkl                              # Saved model + pipeline
+├── Customer Churn.ipynb                     # Development notebook
 └── README.md
-├── Customer_churn.py  # features of the data
+├── Customer_churn.py                        #  features of the data
 └── 
 ```
 
