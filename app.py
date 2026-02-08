@@ -47,7 +47,7 @@ def prediction(features: CustomerChurnFeatures):
     data_transformed = FeatureEngineering().transform(data)
     
     pred = model.predict(data_transformed)
-    return {"predicted_result": float(pred[0])}
+    return {"predicted_result": "Yes" if float(pred[0]) == 1 else "No"}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=8000)
