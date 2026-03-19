@@ -2,8 +2,8 @@ from fastapi import FastAPI
 import uvicorn
 import joblib
 import pandas as pd
-from Customer_churn import CustomerChurnFeatures
-from FeatureEngineering import FeatureEngineering
+from customer_churn_features import CustomerChurnFeatures
+from feature_engineering import FeatureEngineering
 
 # load model
 model = joblib.load("xgboost.pkl")
